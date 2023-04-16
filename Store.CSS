@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#opening h2 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#opening h4 {
+    margin-top: 5px;
+    margin-left: 20px;
+    
+}
+
+.category {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.products-photos {
+    width: 150;
+    height: 130px;
+    border: 2px solid black;
+    transition: width 1s, height 1s, box-shadow 1s;
+}
+
+.products-photos:hover { 
+    width: 95%;
+    height: 150px;
+    box-shadow: 10px 10px 5px greenyellow;
+}
+
+.new-category {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.new-category h3{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    border: 1px solid black;
+    background-color: rgba(27, 27, 173, 0.699);
+}
+
+#equipment-category {
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    #opening {
+        margin-top: 15vh;
+    }
+
+}

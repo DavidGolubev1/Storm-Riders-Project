@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(143, 141, 141);
+    font-weight: 800;
+}
+
+#product-card {
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 10%;
+    border: 4px solid black;
+    box-shadow: 10px 10px 5px green ;
+    background-color: rgba(47, 47, 255, 0.525);
+}
+
+#product-header {
+    margin-top: 30px;
+    margin-left: 6%;
+    text-decoration: underline;
+}
+
+#discreption {
+    width: 35%;
+    height: 100px;
+    display: block;
+    padding: 4px;
+    border: 1px solid black ;
+    margin-left: 10px;
+}
+
+#product-category {
+    margin-top: 5px;
+    margin-left: 3%;
+}
+
+#selectors {
+    margin-top: 5px;
+    margin-left: 3%;
+}
+
+.selector {
+    padding-right: 25px;
+}
+
+#discreption{
+    margin-top: 5px;
+    margin-left: 3%;
+}
+
+#colors {
+    margin-top: 5px;
+    margin-left: 3%;
+}
+
+#colors img {
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 10%;
+
+}
+
+#bottom-card {
+    margin-top: 5px;
+    margin-left: 3%;
+    text-decoration: underline;
+}
+
+#bottom-card button {
+    margin-left:15px ;
+}
+
+#bottom-card button a{
+    text-decoration: none;
+    color: black;
+}
+
+#product-img img {
+    width: 30%;
+    height: 300px;
+    margin-right: 6%;
+    border-radius: 10%;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#opening-conact {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+table, tr,th, td {
+    padding: 5px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+
+#phisical-address {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+
+#leave-information {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 450px;
+    border: 2px solid black;
+    background-color: rgba(17, 17, 172, 0.459);
+}
+
+#opening-info {
+    margin-top:20px ;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.info-item {
+    margin-bottom: 15px;
+}
+
+#complain {
+    width: 300px;
+    height: 100px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#submit-button {
+    margin-left: 100px;
+}
+
+#submit-button button{
+    width: 70px;
+    height: 35px;
+}
+@media only screen and (max-width: 600px) {
+    #opening-conact {
+        margin-top: 15vh;
+    }
+
+}
