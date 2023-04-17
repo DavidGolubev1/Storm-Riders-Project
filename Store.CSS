@@ -57,4 +57,13 @@
         margin-top: 15vh;
     }
 
+    .category {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products-photos {
+        width: 100%;
+    }
+
 }

@@ -13,46 +13,13 @@
 }
 
 #about-us-content{
-    width: 50%;
+    width: 70%;
     height: auto;
-    margin-bottom: 300px;
+    margin-bottom: 35px;
 }
 
 #about-us-content h3 {
     margin-top: 10px;
-}
-
-#about-us-img1 img{
-    position: absolute;
-    width: 200px;
-    height: 180px;
-    border-radius: 15%;
-    right: 15px;
-    top: 50px;
-}
-
-#about-us-img2 img{
-    position: absolute;
-    width: 100px;
-    height: 120px;
-    border-radius: 15%;
-    right: 215px;
-    top: 50px;
-}
-#about-us-img3 img{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-}
-#about-us-img4 img{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-}
-#about-us-img5 img{
-    position: absolute;
-    width: 100px;
-    height: 100px;
 }
 
 @media only screen and (max-width: 600px) {
